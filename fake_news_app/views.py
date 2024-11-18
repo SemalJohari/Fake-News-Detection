@@ -25,6 +25,17 @@ def stemming(content):
     stemmed_content = ' '.join(stemmed_content)
     return stemmed_content
 
+def download_nltk_data():
+    nltk_data_path = '/opt/render/nltk_data'  # Path where NLTK data should be stored
+    if not os.path.exists(nltk_data_path):
+        os.makedirs(nltk_data_path)
+    nltk.data.path.append(nltk_data_path)
+
+    nltk.download('stopwords', download_dir=nltk_data_path)
+
+# You can call this function at the start of the app or inside a view handler
+download_nltk_data()
+
 def index(request):
     prediction = None
     if request.method == 'POST':
