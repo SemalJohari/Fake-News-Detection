@@ -6,5 +6,5 @@ Real or Fake.
 The web application for the project has been built using Django framework of Python and
 it has been deployed at [Render App.](https://fake-news-detection-rnj3.onrender.com/)
 
-# Screenshot of the App
+## Screenshot of the App
 ![image](https://github.com/user-attachments/assets/6b060bc1-8f13-4e56-8975-7d07a48e40f2)
