@@ -4,6 +4,7 @@ import re
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import nltk
+import os
 nltk.download('stopwords')
 
 # Load model and vectorizer
