@@ -3,6 +3,8 @@ import pickle as pk
 import re
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+import nltk
+nltk.download('stopwords')
 
 # Load model and vectorizer
 model = pk.load(open('model.pkl', 'rb'))
