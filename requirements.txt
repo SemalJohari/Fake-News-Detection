@@ -1,0 +1,7 @@
+django
+scikit-learn==1.5.2
+nltk
+pandas
+numpy
+matplotlib
+gunicorn
